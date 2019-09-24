@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-24T10:08:24.577Z",
+        "line": 3,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "test-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8223300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter 50 in the calculator",
+            "match": {
+              "location": "calculatorstepfile.given()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1301900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I press add",
+            "match": {
+              "location": "calculatorstepfile.and1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 834599,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have entered 20 in calculator",
+            "match": {
+              "location": "calculatorstepfile.and()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4182601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "calculatorstepfile.when()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1044900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the result should be 70 on screen",
+            "match": {
+              "location": "calculatorstepfile.then()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-24T10:08:24.906Z",
+        "line": 10,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "test-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1070899,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter 30 in the calculator",
+            "match": {
+              "location": "calculatorstepfile.given1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7246500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I press add",
+            "match": {
+              "location": "calculatorstepfile.and1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 441400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I have entered 10 in calculator",
+            "match": {
+              "location": "calculatorstepfile.and2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "calculatorstepfile.when()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7108600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the result should be 40 on screen",
+            "match": {
+              "location": "calculatorstepfile.then1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "test Calculator",
+    "description": "",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:package1/calculator.feature",
+    "tags": []
+  }
+]
